@@ -14,7 +14,7 @@ export default function TamanhoSenha(props: TamanhoSenhaProps) {
         <input
           type="range"
           min="4"
-          max="80"
+          max="40"
           value={props.tamanho}
           onChange={(e) => props.tamanhoMudou(Number(e.target.value))}
         />
